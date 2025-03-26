@@ -69,6 +69,9 @@ export class Rectangle implements Figure {
   }
 }
 
+// adding a note to test the git diff command
+// adding a seond note to test the git diff command
+
 export function getInfo(figure: Figure): string {
   return `A ${figure.color} ${figure.shape} - ${figure.getArea()}`;
 }
